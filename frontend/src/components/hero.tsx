@@ -21,7 +21,7 @@ function Hero() {
         <h1 className="font-display text-5xl md:text-6xl font-semibold text-ink mt-6 leading-[1.05]">
           Every client.
           <br />
-          Every session.
+          Every session
           <br />
           <span className="text-coral">One place.</span>
         </h1>
