@@ -15,7 +15,7 @@ function Hero() {
         <div className="ml-11" >
 
         <span className="font-mono text-xs uppercase tracking-widest text-coral">
-          Built for personal 
+          Built for personal trainers
         </span>
 
         <h1 className="font-display text-5xl md:text-6xl font-semibold text-ink mt-6 leading-[1.05]">
