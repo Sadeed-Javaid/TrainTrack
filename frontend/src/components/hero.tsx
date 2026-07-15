@@ -12,8 +12,10 @@ function Hero() {
     <section className="relative grid md:grid-cols-2 min-h-screen">
       {/* Left — plain color, text content */}
       <div className="bg-paper flex flex-col justify-center px-8 md:px-16 py-32">
+        <div className="ml-11" >
+
         <span className="font-mono text-xs uppercase tracking-widest text-coral">
-          Built for personal trainers
+          Built for personal 
         </span>
 
         <h1 className="font-display text-5xl md:text-6xl font-semibold text-ink mt-6 leading-[1.05]">
@@ -36,6 +38,7 @@ function Hero() {
           >
             Start free
           </button>
+        </div>
         </div>
       </div>
 
