@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="absolute top-0 left-0 right-0 z-50">
       <div className="max-w-[1650px] mx-auto flex items-center justify-between px-8 py-6">
-        {/* <div className="flex items-center gap-10"> */}
+        <div className="flex items-center gap-10">
           {/* Logo placeholder */}
           <button onClick={() => navigate("/")} className="cursor-pointer">
             <img className="w-50 h-15" src={Logo} alt="" />
@@ -31,7 +31,7 @@ function Navbar() {
               Contact us
             </button>
           </div>
-        {/* </div> */}
+        </div>
 
         {/* Auth buttons — sit over the image, so they get a background chip */}
         <div className="flex items-center gap-3 bg-paper/90  backdrop-blur-md rounded-full px-3 py-2 shadow-sm">
