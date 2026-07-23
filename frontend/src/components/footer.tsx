@@ -28,7 +28,7 @@ function Footer() {
 
         <div className="border-t border-paper/10 mt-8 pt-6">
           <p className="font-mono text-xs text-paper/40">
-            © {year} TrainTrack. Built for coaches who'd rather coach
+            © {year} TrainTrack. Built for coaches who'd rather coach.
           </p>
         </div>
       </div>
